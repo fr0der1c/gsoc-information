@@ -4,4 +4,4 @@
 I'm going to apply for GSoC 2018 and I found there isn't any possible way to filter organizations by technologies they use on [2017 archive page](https://summerofcode.withgoogle.com/archive/2017/organizations/6713622831038464/). So I spent an hour to write this crawler to gather information of organizations and save them to CSV file for quick search.
 
 ## Use
-Just run gsoc.py after installing all requirements. You can just [download CSV file]() of 2017 GSoC organizations without running.
+Just run gsoc.py after installing all requirements. You can just [download CSV file](https://github.com/fr0der1c/gsoc-information/blob/master/GSoC%202017%20organizations.csv) of 2017 GSoC organizations without running.
