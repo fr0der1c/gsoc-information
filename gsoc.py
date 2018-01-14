@@ -18,7 +18,7 @@ def list2str(lst):
     string = ''
     for each in lst:
         string += each + ','
-    return string[:len(string) - 2]
+    return string[:len(string) - 1]
 
 
 soup = BeautifulSoup(request.content, 'html.parser')
