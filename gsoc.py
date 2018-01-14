@@ -24,7 +24,7 @@ def list2str(lst):
 soup = BeautifulSoup(request.content, 'html.parser')
 selector = 'a[class="organization-card__link"]'
 
-with open('result.csv', 'w') as f:
+with open('GSoC 2017 organizations.csv', 'w') as f:
     writer = csv.writer(f)
     writer.writerow(['Organization name', 'Category', 'Description', 'Technologies', 'Topics', 'Link'])
 
